@@ -7,11 +7,11 @@ from position import position_cheese, position_mouse
 
 pygame.init()
 
-maze_file = read_file('maze4.txt')
+maze_file = read_file('maze/maze4.txt')
 
 # Images
-mouse_img = pygame.image.load('assets/img/mouse.png')
-cheese_img = pygame.image.load('assets/img/cheese.png')
+mouse_img = pygame.image.load('maze/assets/img/mouse.png')
+cheese_img = pygame.image.load('maze/assets/img/cheese.png')
 
 # Screen and Cell sizes
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
